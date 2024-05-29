@@ -1,0 +1,17 @@
+[
+  { 
+    "usuario" : "Miguel", 
+    "contraseña" : "admin123",
+    "permiso" : "cliente"
+  },
+  {
+    "usuario" : "Profe",
+    "contraseña" : "admin123",
+    "permiso" : "administrador"
+  },
+  {
+    "usuario" : "Medico",
+    "contraseña" : "vetoAdmin",
+    "permiso" : "veterinario"
+  }
+]

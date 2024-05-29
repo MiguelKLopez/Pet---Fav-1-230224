@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#containerDatos{
+  display: flex;
+  padding-top: 150px;
+  padding: 25px;
+  flex-direction: column;
+  width: 50%;
+  height: 75%;
+  align-items: center;
+  background-color: #FE9889;
+  border-radius: 25px;
+}
+
+#containerDatos div{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#containerDatos div a{
+  font-family: arial;
+  text-decoration: none;
+  color: black;
+}
+
+input{
+  margin: 10px 0px 10px 0px;
+  width: 80%;
+  height: 50px;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background-color: #06859A;
+  color: white;
+  font-size: 16px;
+}
+
+::placeholder{
+  color: white;
+  opacity: 1;
+  font-size: 16px;
+}
+
+button{
+  font-size: 20px;
+  width: 35%;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 25px;
+  border: none;
+  background-color: #06859A;
+  color: white;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+img{
+  margin-bottom: 40px;
+}
+
+#botonRegistro{
+  display: flex;
+  background-color: transparent;  
+  margin: 0;
+  justify-content: end;
+}
+
+@media (max-width:768px) {
+  #containerDatos{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 30px;
+  }
+
+  #containerDatos div a{
+    font-size: 20px;
+  }
+
+  #botonIngresar{
+    height: 50px;
+  }
+
+  #containerDatos input{
+    height: 50px;
+  }
+}
+
+h1{
+  font-size: 59px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#botonRegresarLogin{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+#containerLogo{
+  height: 50%;
+  width: 50%;
+}
+
+#containerRegistro{
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#containerForm{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FE9889;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+#containerForm input{
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  margin: 10px 10px 0px 0px;
+}
+
+.columna{
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.columma input{
+  width: 40%;
+}
+
+@media (max-width:768px) {
+  
+  #containerForm img{
+    width: 100%;
+  }
+  
+  #containerForm input{
+    height: 50px;
+    width: 100%;
+  }
+  
+  #registroExitoso{
+    height: 120px;
+  }
+  
+  #containerForm{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    border-radius: 0px;
+  }
+
+  #registroExitoso{
+    height: 50px;
+    width: 50%;
+  }
+
+  #containerDatos div a{
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 764px){
+  #botonesNavegacion{
+    display: flex;
+    align-items: right;
+    gap: 50px;
+  }
+}

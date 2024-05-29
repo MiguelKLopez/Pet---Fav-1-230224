@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  margin: 35px;
+}
+
+#containerPrincipal{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#navegacion{
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #06859A;
+  gap: 50px;
+} 
+
+#navegacion a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+#botonInicio{
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+img{
+  width: 50px;
+}
+
+#botonesNavegacion{
+  display: flex;
+  align-items: right;
+  margin-left: 700px;
+  gap: 50px;
+}
+
+.botonNavbar{
+  background-color: transparent;
+  border: none;
+}
+
+.botonNavbar img{
+  width: 40px;
+}
+
+/* carro de compra */
+
+#container_p_carr{
+  width: 100%;
+  height: calc(100vh - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container_table{
+  width: max-content;
+  height: max-content;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+thead, tbody{
+  text-align: center;
+}
+
+tbody img{
+  width: 75px;
+  height: 75px;
+}
+th ,td{
+  padding: 10px;
+}
+
+#total_compra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container_cc{
+  width: 100%;
+  padding: 10px;
+  border-top: solid 1px silver;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#container_cc div{
+  display: flex;
+}
+h3{
+  padding: 10px;
+  font-size: 1rem;
+}
+#container_cc button{
+  width: max-content;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+}
+.btn_eliminar_p{
+  font-weight: 900;
+  border: none;
+  color: red;
+  cursor: pointer;
+  background: transparent;
+}
+
+@media (max-width: 764px){
+  #botonesNavegacion{
+    display: flex;
+    align-items: right;
+    gap: 50px;
+  }
+}

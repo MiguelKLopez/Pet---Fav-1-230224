@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#containerPrincipal{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#navegacion{
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #06859A;
+  gap: 50px;
+} 
+
+#navegacion a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+#botonInicio{
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+img{
+  width: 50px;
+}
+
+#botonesNavegacion{
+  display: flex;
+  align-items: right;
+  margin-left: 700px;
+  gap: 50px;
+}
+
+.botonNavbar{
+  background-color: transparent;
+  border: none;
+}
+
+.botonNavbar img{
+  width: 40px;
+}
+
+/* apartado principal */
+#apartadoPrincipal{
+  width: 35%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+#apartadoPrincipal img{
+  width: 40%;
+}
+
+#apartadoPrincipal p{
+  font-size: 32px;
+}
+
+#apartadoContacto h2{
+  font-size: 20px;
+  color: gray;
+}
+
+@media (max-width: 764px) {
+  #apartadoPrincipal {
+    width: 60%;
+    margin: 0;
+  }
+
+  #apartadoPrincipal p{
+    font-size: 24px;
+  }
+
+  #apartadoPrincipal h2{
+    font-size: 16px;
+  }
+
+  #apartadoPrincipal img{
+    width: 75%;
+  }
+}
+
+/* Apartado de noticias */
+
+#apartadoNoticias{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+}
+
+#apartadoNoticias img{
+  width: 100%;
+}
+
+#apartadoNoticias button{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border:none;
+  transition: 1s;
+}
+
+#apartadoNoticias button:hover{
+  background-color: #06859A;
+}
+
+@media(max-width: 764px){
+  #apartadoNoticias{
+    width: 75%;
+  }
+}
+
+#imagenNoticia1{
+  display: flex;
+}
+
+#imagenNoticia2{
+  display: none;
+}
+
+#imagenNoticia3{
+  display: none;
+}
+
+/* Tarjeta */
+
+#apartadoReseñas{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* Alinear arriba para que las tarjetas llenen la fila de arriba primero */
+  margin: 0;
+}
+
+.templateVeterinarios{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #06859A;
+  width: calc(30% - 40px); /* Calcula el ancho para que haya 3 tarjetas por fila con 20px de margen entre ellas */
+  padding: 15px;
+  height: 150px;
+  border-radius: 20px;
+  margin: 20px;
+  flex-shrink: 0; /* Evita que las tarjetas se reduzcan más allá de su ancho especificado */
+}
+
+@media (max-width: 1200px) {
+  .templateVeterinarios {
+    width: calc(50% - 40px); /* Calcula el ancho para que haya 2 tarjetas por fila con 20px de margen entre ellas */
+  }
+}
+
+@media (max-width: 767px) {
+  .templateVeterinarios {
+    width: calc(100% - 40px); /* Ocupa todo el ancho disponible con 20px de margen */
+  }
+}
+
+.botonColoreado{
+  background-image: url(../img/interfaz/pata.png);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 3px;
+  cursor: pointer;
+  border:none;
+  transition: 1s;
+  background-color: gold;
+}
+
+.tarjeta button{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 3px;
+  border:none;
+  transition: 1s;
+}
+
+.tarjetaInformacion{
+  margin: 10px;
+}
+
+.tarjeta p{
+  font-size: 14px;
+}
+
+.tarjeta h2{
+  font-size: 16px;
+  margin: 5px;
+}
+
+.tarjeta img{
+  width: 25;
+  border-radius: 50%;
+}
+
+/* Franja */
+.franja{
+  width: 100%;
+  height: 25px;
+  background-color: #fe9889;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+/* Apartado testimonios */
+.apartadoTestimonios{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* Alinear arriba para que las tarjetas llenen la fila de arriba primero */
+  margin: 0;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #06859A;
+  width: 100%;
+  height: 75px;
+  margin-top: 200px;
+  color: white;
+  font-size: 10px;
+}

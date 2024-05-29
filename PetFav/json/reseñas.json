@@ -1,0 +1,17 @@
+[
+  {
+    "nombre" : "Ana R.",
+    "descripción" : "Excelente atención, mi perro se recuperó rápido. ¡Gracias!",
+    "imagen" : "../img/testimonios/testimonio_0.jpg"
+  },
+  {
+    "nombre" : "Luisa M.",
+    "descripción" : "Equipo profesional y amable, precios justos. ¡Recomendado!",
+    "imagen" : "../img/testimonios/testimonio_1.jpg"
+  },
+  {
+    "nombre" : "María D.",
+    "descripción" : "Salvaron la vida de mi ganado, eternamente agradecida.",
+    "imagen" : "../img/testimonios/testimonio_2.jpg"
+  }
+]

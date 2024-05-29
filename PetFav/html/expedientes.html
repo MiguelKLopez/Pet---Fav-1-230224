@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../adminCitas.css">
+  <script src="../js/citas.js" defer></script>
+  <script src="../js/expedientes.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <nav id="navegacion">
+      <button id="botonInicio"><img src="../img/Logo secundario.png" alt=""></button>
+      <a href="adminInicio.html">Inicio</a>
+      <a href="adopcion.html">Expedientes</a>
+      <a href="adminCitas.html">Citas</a>
+      <a href="almacen.html">Almacen</a>
+    </nav>
+  </header>
+  
+  <div id="containerPrincipal">
+    <h1>Expedientes</h1>
+
+    <div id="container">
+      <table>
+        <th>Nombre animal</th>
+        <th>Nombre cliente</th>
+        <th></th>
+        <!-- Lógica dentro del JS -->
+
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-content"></p>
+          </div>
+        </div>
+
+        
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>

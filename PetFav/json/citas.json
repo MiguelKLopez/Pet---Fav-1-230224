@@ -1,0 +1,186 @@
+[
+  {
+    "nombreAnimal": "Maxim",
+    "nombreDueño": "Pepe Gonzales",
+    "fecha": "07/02/2024",
+    "tipoCita": "Médica",
+    "estado": "finalizada",
+    "tiempo": 85
+  },
+  {
+    "nombreAnimal": "Stalin",
+    "nombreDueño": "Pepe Gonzales",
+    "fecha": "08/02/2024",
+    "tipoCita": "Estética",
+    "estado": "finalizada",
+    "tiempo": 122
+  },
+  {
+    "nombreAnimal": "Rogelio",
+    "nombreDueño": "Rosario Villanueva",
+    "fecha": "15/02/2024",
+    "tipoCita": "Guardería",
+    "estado": "Pendiente",
+    "tiempo": 37
+  },
+  {
+    "nombreAnimal": "Toby",
+    "nombreDueño": "Laura Pérez",
+    "fecha": "10/03/2024",
+    "tipoCita": "Médica",
+    "estado": "Finalizado",
+    "tiempo": 104
+  },
+  {
+    "nombreAnimal": "Luna",
+    "nombreDueño": "Juan Rodríguez",
+    "fecha": "12/03/2024",
+    "tipoCita": "Guardería",
+    "estado": "Pendiente",
+    "tiempo": 91
+  },
+  {
+    "nombreAnimal": "Max",
+    "nombreDueño": "María Gómez",
+    "fecha": "14/03/2024",
+    "tipoCita": "Estética",
+    "estado": "Pendiente",
+    "tiempo": 12
+  },
+  {
+    "nombreAnimal": "Simba",
+    "nombreDueño": "Carlos Fernández",
+    "fecha": "16/03/2024",
+    "tipoCita": "Médica",
+    "estado": "Pendiente",
+    "tiempo": 50
+  },
+  {
+    "nombreAnimal": "Lola",
+    "nombreDueño": "Ana Martínez",
+    "fecha": "18/03/2024",
+    "tipoCita": "Estética",
+    "estado": "Finalizado",
+    "tiempo": 78
+  },
+  {
+    "nombreAnimal": "Rocky",
+    "nombreDueño": "Pedro Sánchez",
+    "fecha": "20/03/2024",
+    "tipoCita": "Guardería",
+    "estado": "Finalizado",
+    "tiempo": 133
+  },
+  {
+    "nombreAnimal": "Bella",
+    "nombreDueño": "Sofía López",
+    "fecha": "22/03/2024",
+    "tipoCita": "Médica",
+    "estado": "Pendiente",
+    "tiempo": 109
+  },
+  {
+    "nombreAnimal": "Charlie",
+    "nombreDueño": "Manuel García",
+    "fecha": "24/03/2024",
+    "tipoCita": "Guardería",
+    "estado": "Pendiente",
+    "tiempo": 8
+  },
+  {
+    "nombreAnimal": "Milo",
+    "nombreDueño": "Elena Ruiz",
+    "fecha": "26/03/2024",
+    "tipoCita": "Estética",
+    "estado": "Finalizado",
+    "tiempo": 68
+  },
+  {
+    "nombreAnimal": "Lucky",
+    "nombreDueño": "Javier Díaz",
+    "fecha": "28/03/2024",
+    "tipoCita": "Médica",
+    "estado": "Finalizado",
+    "tiempo": 23
+  },
+  {
+    "nombreAnimal": "Luna",
+    "nombreDueño": "Ana González",
+    "fecha": "30/03/2024",
+    "tipoCita": "Guardería",
+    "estado": "Pendiente",
+    "tiempo": 61
+  },
+  {
+    "nombreAnimal": "Max",
+    "nombreDueño": "Sara Torres",
+    "fecha": "01/04/2024",
+    "tipoCita": "Médica",
+    "estado": "Pendiente",
+    "tiempo": 119
+  },
+  {
+    "nombreAnimal": "Bobby",
+    "nombreDueño": "Antonio Ramos",
+    "fecha": "03/04/2024",
+    "tipoCita": "Estética",
+    "estado": "Pendiente",
+    "tiempo": 96
+  },
+  {
+    "nombreAnimal": "Tom",
+    "nombreDueño": "María Rodríguez",
+    "fecha": "05/04/2024",
+    "tipoCita": "Guardería",
+    "estado": "Finalizado",
+    "tiempo": 35
+  },
+  {
+    "nombreAnimal": "Lola",
+    "nombreDueño": "Juan Fernández",
+    "fecha": "07/04/2024",
+    "tipoCita": "Médica",
+    "estado": "Pendiente",
+    "tiempo": 75
+  },
+  {
+    "nombreAnimal": "Simba",
+    "nombreDueño": "Elena Gutiérrez",
+    "fecha": "09/04/2024",
+    "tipoCita": "Estética",
+    "estado": "Pendiente",
+    "tiempo": 40
+  },
+  {
+    "nombreAnimal": "Max",
+    "nombreDueño": "Carlos Martínez",
+    "fecha": "11/04/2024",
+    "tipoCita": "Guardería",
+    "estado": "Finalizado",
+    "tiempo": 139
+  },
+  {
+    "nombreAnimal": "Luna",
+    "nombreDueño": "Laura Pérez",
+    "fecha": "13/04/2024",
+    "tipoCita": "Médica",
+    "estado": "Pendiente",
+    "tiempo": 14
+  },
+  {
+    "nombreAnimal": "Bella",
+    "nombreDueño": "Ana Gómez",
+    "fecha": "15/04/2024",
+    "tipoCita": "Estética",
+    "estado": "Pendiente",
+    "tiempo": 123
+  },
+  {
+    "nombreAnimal": "Rocky",
+    "nombreDueño": "Pedro Díaz",
+    "fecha": "17/04/2024",
+    "tipoCita": "Guardería",
+    "estado": "Finalizado",
+    "tiempo": 72
+  }
+]

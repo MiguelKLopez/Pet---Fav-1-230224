@@ -1,0 +1,362 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  background-size: cover;
+}
+
+h1{
+  margin: 20px;
+}
+
+#containerPrincipal{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#navegacion{
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #06859A;
+  gap: 50px;
+} 
+
+#navegacion a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+#botonInicio{
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+img{
+  width: 50px;
+}
+
+#botonesNavegacion{
+  display: flex;
+  align-items: right;
+  gap: 50px;
+}
+
+.botonNavbar{
+  background-color: transparent;
+  border: none;
+}
+
+.botonNavbar img{
+  width: 40px;
+}
+
+/* contenedor principal */
+
+#containerPrincipal{
+  width: 100%;
+  height: calc(100vh - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#containerTarjetasCitas{
+  width: 90%;
+  height: max-content;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+#containerTipoCita{
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  display: flex;
+}
+
+#containerTipoCita button:hover{
+  background-color: white;
+  color: black;
+}
+
+#citaEstética{
+  height: 40px;
+  padding: 0px 40px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 15px 15px 0px 0px;
+  color: white;
+  background-color: #06859A;
+  box-shadow: black;
+}
+
+#citaMédica{
+  height: 40px;
+  padding: 0px 40px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 15px 15px 0px 0px;
+  color: white;
+  background-color: #06859A;
+  box-shadow: black;
+}
+
+#citaGuardería{
+  height: 40px;
+  padding: 0px 40px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 15px 15px 0px 0px;
+  color: white;
+  background-color: #06859A;
+  box-shadow: black;
+}
+
+#containerInfoCita{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#containerInfoCitas *{
+  margin: 19px;
+}
+
+#containerInfoCitas input,select{
+  margin: 10px;
+  width: 90%;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  background: transparent;
+  border-radius: 10px;  
+  outline: none;
+  font-size: 16px;
+}
+
+.inputInfo{
+  margin: 10px;
+  width: 87%;
+  padding: 10px;
+  font-size: 1rem;  
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;  
+  outline: none;
+}
+
+#inputDescripcion{
+  height: 150px;
+}
+
+#containerInfoCitas input:placeholder{
+  color: black;
+}
+
+#containerMedica{
+  display: inline;
+}
+
+#containerEstetica{
+  display: none;
+}
+
+#containerGuarderia{
+  display: none;
+}
+
+#agendarCita{
+  width: 200px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #06859A;
+  color: #FFF;
+  transition: 0.5s;
+}
+
+#containerCalendario{
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+
+#containerDatos{
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  border-bottom: black;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 1px 5px 4px rgba(0,0,0,0.5);
+  background-color: white;
+  overflow: hidden;
+}
+
+#cale{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#calendariosDias{
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none; 
+  font-weight: 700;
+}
+
+.dia{
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.dia:hover{
+  color: white;
+  background-color: red;
+}
+
+.diaSeleccionado{
+  background-color: red;
+  color: white; /* Agregamos el color de texto blanco cuando el día está seleccionado */
+}
+
+.icon{
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  :hover{
+    cursor: pointer;
+    scale: 1.2;
+  }
+}
+
+.icon img{
+  opacity: 0.5;
+  transition: 0.5s;
+  width: 5%;
+}
+
+/* Registro citas */
+
+#container{
+  display: flex;
+  width: 80%;
+  height: auto;
+  background-color: #06859A;
+  border-radius: 30px;
+}
+
+@media (max-width: 767px){
+  #container{
+    width: 95%;
+    margin: 25px;
+    align-items: center;
+  }
+}
+
+table{
+  margin: 25px;
+  width: 100%;
+  border: 3px solid white;
+  padding: 10px;
+  color: white;
+}
+
+input[type=chechbox]{
+  color: green;
+  border-radius: 10px;
+}
+
+.botonEliminar{
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 25%;
+  border-radius: 25px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #06859A;
+  width: 100%;
+  height: 75px;
+  margin-top: 200px;
+  color: white;
+  font-size: 10px;
+}

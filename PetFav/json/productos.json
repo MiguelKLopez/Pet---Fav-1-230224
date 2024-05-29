@@ -1,0 +1,122 @@
+[
+  {
+    "nombre": "Correa",
+    "id": "01",
+    "precio": "$125.00",
+    "descripcion": "Correa para perro, gato o gallo de varios colores.",
+    "imagen": "../img/productos/correapiel.jpg",
+    "cantidad" : "14"
+  },
+  {
+    "nombre": "Pienso para pollos",
+    "id": "02",
+    "precio": "$75.00",
+    "descripcion": "Alimento balanceado para pollos de engorde.",
+    "imagen": "../img/productos/piensopollos.jpg",
+    "cantidad" : "14"
+  },
+  {
+    "nombre": "Collar antipulgas",
+    "id": "03",
+    "precio": "$150.00",
+    "descripcion": "Collar antipulgas y garrapatas para perros y gatos.",
+    "imagen": "../img/productos/collarantipulgas.jpg",
+    "cantidad" : "14"
+  },
+  {
+    "nombre": "Bebedero automático",
+    "id": "04",
+    "precio": "$230.00",
+    "descripcion": "Bebedero automático para aves de corral.",
+    "imagen": "../img/productos/bebederoautomático.jpg",
+    "cantidad" : "14"
+  },
+  {
+    "nombre": "Pienso para gatos",
+    "id": "05",
+    "precio": "$65.75",
+    "descripcion": "Alimento seco para gatos, fórmula de pollo y arroz.",
+    "imagen": "../img/productos/piensogatos.jpg",
+    "cantidad" : "14"
+  },
+  {
+    "nombre": "Cama para perros",
+    "id": "06",
+    "precio": "$325.00",
+    "descripcion": "Cama acolchada para perros de tamaño mediano.",
+    "imagen": "../img/productos/camaperrosmedianos.jpg",
+    "cantidad" : "14"
+  },
+  {
+    "nombre": "Vitaminas para vacas",
+    "id": "07",
+    "precio": "$180.00",
+    "descripcion": "Suplemento vitamínico para vacas lecheras.",
+    "imagen": "../img/productos/vitaminavacas.jpg",
+    "cantidad" : "14"
+  },
+  {
+    "nombre": "Juguete para gatos",
+    "id": "08",
+    "precio": "$100.00",
+    "descripcion": "Juguete interactivo para gatos con plumas y campana.",
+    "imagen": "../img/productos/juguetesgato.jpg",
+    "cantidad" : "10"
+  },
+  {
+    "nombre": "Shampoo para caballos",
+    "id": "09",
+    "precio": "$240.25",
+    "descripcion": "Shampoo suave y sin lágrimas para caballos.",
+    "imagen": "../img/productos/shampoocaballo.jpg",
+    "cantidad" : "62"
+  },
+  {
+    "nombre": "Jaula para pájaros",
+    "id": "10",
+    "precio": "$150.00",
+    "descripcion": "Jaula de alambre para pájaros pequeños.",
+    "imagen": "../img/productos/jaulapajarospequeños.jpg",
+    "cantidad" : "41"
+  },
+  {
+    "nombre": "Comedero para cerdos",
+    "id": "11",
+    "precio": "$435.00",
+    "descripcion": "Comedero automático para cerdos de engorde.",
+    "imagen": "../img/productos/comedorparacerdos.jpg",
+    "cantidad" : "72"
+  },
+  {
+    "nombre": "Arena para gatos",
+    "id": "12",
+    "precio": "$90.00",
+    "descripcion": "Arena aglomerante para la bandeja de arena de gatos.",
+    "imagen": "../img/productos/arenagatos.jpg",
+    "cantidad" : "11"
+  },
+  {
+    "nombre": "Cepillo para caballos",
+    "id": "13",
+    "precio": "$160.50",
+    "descripcion": "Cepillo de cerdas suaves para el cuidado del pelaje de caballos.",
+    "imagen": "../img/productos/cepillocaballo.jpg",
+    "cantidad" : "12"
+  },
+  {
+    "nombre": "Peine para perros",
+    "id": "14",
+    "precio": "$129.99",
+    "descripcion": "Peine de acero inoxidable para desenredar el pelaje de perros.",
+    "imagen": "../img/productos/cepilloperro.jpg",
+    "cantidad" : "21"
+  },
+  {
+    "nombre": "Caseta para perros",
+    "id": "15",
+    "precio": "$650.00",
+    "descripcion": "Caseta resistente y aislada para perros de exterior.",
+    "imagen": "../img/productos/casaperro.jpg",
+    "cantidad" : "25"
+  }
+]

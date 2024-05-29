@@ -1,0 +1,208 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  margin: 35px;
+}
+
+#containerPrincipal{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#navegacion{
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #06859A;
+  gap: 50px;
+} 
+
+#navegacion a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+#botonInicio{
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+img{
+  width: 50px;
+}
+
+#botonesNavegacion{
+  display: flex;
+  align-items: right;
+  margin-left: 700px;
+  gap: 50px;
+}
+
+.botonNavbar{
+  background-color: transparent;
+  border: none;
+}
+
+.botonNavbar img{
+  width: 40px;
+}
+
+
+/* Sección de galería */
+.containerAnimales{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* Alinear arriba para que las tarjetas llenen la fila de arriba primero */
+  margin: 0;
+}
+
+.tarjeta{
+  width: 400px;
+  height: 450px;
+  margin: 25px;
+}
+
+.imagenTarjeta{
+  width: 400px;
+  height: 320px;
+  border-radius: 20px;
+  background-image: url(img/image\ 15.png);
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+}
+
+.tarjetaInfo{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media (max-width: 764px){
+  .imagenTarjeta{
+    width: 100%;
+  }
+}
+
+@media (max-width: 764px){
+  #botonesNavegacion{
+    display: flex;
+    align-items: right;
+    gap: 50px;
+  }
+}
+
+
+/* Footer */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #06859A;
+  width: 100%;
+  height: 75px;
+  margin-top: 200px;
+  color: white;
+  font-size: 10px;
+}
+
+/* Modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 25px;
+  width: 80%;
+}
+
+#modal-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#modalImagen{
+  width: 50%;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+#containerDatosAnimal{
+  margin-bottom: 25px;
+  width: 50%;
+}
+
+#containerDatosSolicitud{
+  width: 50%;
+}
+
+#containerDatosSolicitud input{
+  width: 80%;
+  margin: 10px;
+}
+
+#containerDatosSolicitud button{
+  width: 300px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #06859A;
+  color: #FFF;
+  transition: 0.5s;
+  margin: 5px;
+}

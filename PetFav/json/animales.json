@@ -1,0 +1,56 @@
+[
+  {
+    "nombre" : "Sixagesima legislatura",
+    "id" : "01", 
+    "especia" : "gallo",
+    "edad" : "2", 
+    "condición": "saludable",
+    "descripcion": "Gallo común y corriente que le encanta morder Neoliberales y es buscado por la Interpol.",
+    "imagen": "../img/animales/gallo.png"
+  },
+  {
+    "nombre" : "Maxim",
+    "id" : "02", 
+    "especia" : "perro",
+    "edad" : "1", 
+    "condición": "saludable",
+    "descripcion": "Pelaje suave y limpio, bola de pelos que ama dormir y estar en las ventanas viendo el cielo..",
+    "imagen": "../img/animales/perroblanco.jpg"
+  }, 
+  {
+    "nombre" : "Raimundo",
+    "id" : "03", 
+    "especia" : "perro",
+    "edad" : "2", 
+    "condición": "saludable",
+    "descripcion": "Amante del pollo con verdura y amante de morder tobillos.",
+    "imagen": "../img/animales/perromarrón.jpg"
+  },
+  {
+    "nombre" : "Stalin",
+    "id" : "04", 
+    "especia" : "gato",
+    "edad" : "4", 
+    "condición": "saludable",
+    "descripcion": "Fugitivo de la justicia española por robo de pescado en un mercado de Bilbao.",
+    "imagen": "../img/animales/gatogris.jpg"
+  }, 
+  {
+    "nombre" : "Benedicto Junior IV",
+    "id" : "05", 
+    "especia" : "conejo",
+    "edad" : "4", 
+    "condición": "saludable",
+    "descripcion": "Conejo altamente gruñon pero con espíritu aventurero que le encanta morder cojines.",
+    "imagen": "../img/animales/conejo.jpg"
+  },
+  {
+    "nombre" : "Fifi y Fofo",
+    "id" : "06", 
+    "especia" : "gato",
+    "edad" : "1 y 1", 
+    "condición": "saludable",
+    "descripcion": "Dos hermanos inseparables.",
+    "imagen": "../img/animales/gatos.jpg"
+  }
+]

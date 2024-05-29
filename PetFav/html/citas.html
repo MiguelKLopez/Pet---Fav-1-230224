@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../citas.css">
+  <script src="../js/citas.js" defer></script>
+  <script src="../js/calendario.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <nav id="navegacion">
+      <button id="botonInicio"><img src="../img/Logo secundario.png" alt=""></button>
+      <a href="página_principal.html">Inicio</a>
+      <a href="citas.html">Citas</a>
+      <a href="adopcion.html">Adopción</a>
+      <a href="tienda.html">Tienda</a>
+      <div id="botonesNavegacion">
+        <button class="botonNavbar"><img src="../img/carrito-de-compras.png" alt=""></button>
+        <button class="botonNavbar"><img src="../img/user.png" alt=""></button>
+      </div>
+    </nav>
+  </header>
+  
+  <div id="containerPrincipal">
+    <div id="filtroDegradado"></div>
+
+    <div id="containerTarjetasCitas">
+      
+      <div id="containerTipoCita">
+        <button id="citaEstética">Estética</button>
+        <button id="citaMédica">Médica</button>
+        <button id="citaGuardería">Guardería</button>
+      </div>
+      
+      <div id="containerDatos">
+        <div id="containerInfoCita">
+          
+          <div id="containerMedica">
+            <h2>Agendar cita médica</h2>
+            <select name="" id="" placeholder="Motivo">
+              <option value="" disabled selected> Motivo de consulta </option>
+              <option value="" > Consulta </option>
+              <option value="" > Resfriado </option>
+              <option value="" > Operación </option>
+            </select>
+            <input class="inputInfo" type="text" placeholder="Nombre">
+            <input class="inputInfo" type="text" placeholder="Tipo">
+            <textarea name="" class="inputInfo" id="inputDescripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+            <button id="agendarCita">Aceptar</button>
+          </div>
+
+          <div id="containerEstetica">
+            <h2>Agendar cita estética</h2>
+            <select name="" id="" placeholder="Motivo">
+              <option value="" disabled selected> Motivo de consulta </option>
+              <option value="" > Corte de pelo </option>
+              <option value="" > Baño </option>
+              <option value="" > Corte y baño </option>
+              <option value="" > Spa </option>
+            </select>
+            <input class="inputInfo" type="text" placeholder="Nombre">
+            <input class="inputInfo" type="text" placeholder="Tipo">
+            <textarea name="" class="inputInfo" id="inputDescripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+            <button id="agendarCita">Aceptar</button>
+          </div>
+
+          <div id="containerGuarderia">
+            <h2>Agendar cita guardería</h2>
+            <input class="inputInfo" type="text" placeholder="Nombre">
+            <input class="inputInfo" type="text" placeholder="Tipo">
+            <textarea name="" class="inputInfo" id="inputDescripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+            <button id="agendarCita">Aceptar</button>
+          </div>
+
+        </div>
+  
+        <div id="containerCalendario">
+          <div id="cale">
+            <h1>Marzo 2024</h1>
+            <button id="botonReiniciar" class="icon"><img src="../img/undo.png" alt=""></button>
+            <div id="calendariosDias">
+              <li class="diaSemana">Lun</li>
+              <li class="diaSemana">Mar</li>
+              <li class="diaSemana">Mier</li>
+              <li class="diaSemana">Jue</li>
+              <li class="diaSemana">Vie</li>
+              <li class="diaSemana">Sab</li>
+              <li class="diaSemana">Dom</li>
+  
+              <li class="dia">1</li>
+              <li class="dia">2</li>
+              <li class="dia">3</li>
+              <li class="dia">4</li>
+              <li class="dia">5</li>
+              <li class="dia">6</li>
+              <li class="dia">7</li>
+              <li class="dia">8</li>
+              <li class="dia">9</li>
+              <li class="dia">10</li>
+              <li class="dia">11</li>
+              <li class="dia">12</li>
+              <li class="dia">13</li>
+              <li class="dia">14</li>
+              <li class="dia">15</li>
+              <li class="dia">16</li>
+              <li class="dia">17</li>
+              <li class="dia">18</li>
+              <li class="dia">19</li>
+              <li class="dia">20</li>
+              <li class="dia">21</li>
+              <li class="dia">22</li>
+              <li class="dia">23</li>
+              <li class="dia">24</li>
+              <li class="dia">25</li>
+              <li class="dia">26</li>
+              <li class="dia">27</li>
+              <li class="dia">28</li>
+              <li class="dia">29</li>
+              <li class="dia">30</li>
+              <li class="dia">31</li>
+
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>

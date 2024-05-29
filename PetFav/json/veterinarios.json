@@ -1,0 +1,20 @@
+[
+  {
+    "nombre" : "Dra. Ana López",
+    "descripción" : "La Dra. López es una veterinaria reconocida por su experiencia en el diagnóstico y tratamiento de enfermedades cardíacas en perros y gatos.", 
+    "calificación" : "2.3", 
+    "imagen" : "../img/veterinarios/veterinario_0.jpg"
+  }, 
+  {
+    "nombre" : "Dra. Sofía González",
+    "descripción" : "La Dra. González es una cirujana veterinaria altamente capacitada en la realización de procedimientos de rutina y complejos.", 
+    "calificación" : "4", 
+    "imagen" : "../img/veterinarios/veterinario_1.jpg"
+  }, 
+  {
+    "nombre" : "Dra. Pedro Martinéz",
+    "descripción" : "El Dr. Martínez es un especialista en comportamiento animal que ayuda a resolver problemas de conducta en perros y gatos.", 
+    "calificación" : "5", 
+    "imagen" : "../img/veterinarios/veterinario_2.jpg"
+  }
+]
